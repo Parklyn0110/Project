@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <style>
+        .header{
+            height: 80vh;
+            background: url("bg_header.jpg");
+            background-size: cover;
+            background-position: center;
+            padding: 30px;
+        }
+        .header .banner{
+            text-align: center;
+            padding: 100px 20px;
+            color: #fff;
+        }
+        .header .banner h1{
+            font-size: 80px;
+        }
+        .header .banner .html-css{
+            color: red;
+        }
+        .header .navbar{
+            width: 80%;
+            background: red;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+            
+        }
+        .header .navbar .logo{
+            width: 60%;
+        }
+        .header .navbar .logo img{
+            width: 100px;
+        }
+        .header .navbar .menu{
+            width: 40%
+        }
+        .header .menu ul{
+            display: flex;
+            list-style: none;
+        }
+        .header .menu ul a{
+            color: #fff;
+            text-transform: uppercase;
+            margin-right: 40px;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+        .header .banner button{
+            color: cornflowerblue;
+            padding: 10px
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="logo">
+                <img src="logo.png" alt="">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Blog/News</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="banner">
+            <h1>POWER OF <span class="html-css">HTML CSS</span></h1>
+            <p>Language can create a lot of beauty on the website</p>
+            <button>Our porfolio ></button>
+        </div>
+    </div>
+    
+</body>
+</html>
